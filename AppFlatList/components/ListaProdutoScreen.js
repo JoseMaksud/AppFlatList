@@ -1,4 +1,3 @@
-
 // React
 import React from 'react';
 
@@ -18,7 +17,9 @@ import {
     List
 } from 'react-native-paper';
 
-import Produtos from './data/Produtos'
+import Produtos from '../data/Produtos'
+
+export default props => {
 
 // Function to read title
 const Item = ({elemento: item}) => {
@@ -39,17 +40,16 @@ const Item = ({elemento: item}) => {
 )};
 
 // App
-const App = () => {
     return (
-        <SafeAreaView style={styles.container}>
+        <View style={styles.container}>
             <FlatList
                 data={ Produtos }
                 renderItem={({ item }) =><Item elemento={ item } /> }
                 keyExtractor={ item => item.id }
             />
-        </SafeAreaView>
+        </View>
     );
-};
+}
 
 // Style
 const styles = StyleSheet.create({
@@ -73,4 +73,3 @@ const styles = StyleSheet.create({
 });
 
 // Export
-export default App;
