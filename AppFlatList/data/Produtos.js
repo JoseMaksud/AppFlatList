@@ -4,7 +4,7 @@ export default [
         id: 'bd7acbea-c1b1-46c2-aed5-3ad53abb28ba',
         titulo: 'XBOX SERIES X',
         descricao: 'Descrição do Item 1',
-        urlImagem: 'https://assets.xboxservices.com/assets/fb/d2/fbd2cb56-5c25-414d-9f46-e6a164cdf5be.png?n=XBX_A-BuyBoxBGImage01-D.png'
+        urlImagem: 'https://assets.xboxservices.com/assets/bc/40/bc40fdf3-85a6-4c36-af92-dca2d36fc7e5.png?n=642227_Hero-Gallery-0_A1_857x676.png'
     },
     {
         id: '3ac68afc-c605-48d3-a4f8-fbd91aa97f63',
